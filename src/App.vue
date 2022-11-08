@@ -12,17 +12,20 @@
       />
     </Grid>
   </div>
+  <reload-prompt />
 </template>
 
 <script>
 import Formulario from "./components/Formulario.vue";
 import Data from "./components/Data.vue";
 import Grid from "./components/Grid.vue";
+import ReloadPrompt from "./components/ReloadPrompt.vue";
 export default {
   components: {
     Formulario,
     Data,
     Grid,
+    ReloadPrompt,
   },
   data: () => ({
     info: {
